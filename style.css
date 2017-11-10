@@ -1,0 +1,36 @@
+.icon{
+    /* display:inline-block; */
+    width: 50%;
+}
+svg{
+    width: 33.32%;
+    float: left;
+
+}
+.gear-bg,
+.hammer-bg,
+.heart-bg{
+    transition: .3s ease-out; 
+}
+/*----------------------------------
+        GEAR  == engranaje
+----------------------------------*/
+.gear-bg:hover{
+    fill:rgb(35, 136, 136);
+}
+/*----------------------------------
+        HAMMER == martillo
+----------------------------------*/
+.hammer-bg{
+    stroke: #fee16e;
+}
+.hammer-bg:hover{
+    fill:#feae6e;
+    stroke-width: 8;
+}
+/*----------------------------------
+        HEART  == corazon
+----------------------------------*/
+.heart-bg:hover{
+    fill: #ff5e5e;
+}
