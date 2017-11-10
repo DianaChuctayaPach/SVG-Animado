@@ -1,36 +1,32 @@
-.icon{
-    /* display:inline-block; */
-    width: 50%;
+body{
+    background-image: url(http://milrecursos.com/wp-content/uploads/2012/01/18-Fondos-de-pantalla-HD-del-honguito-de-Mario-Bros-hongo.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
-svg{
-    width: 33.32%;
-    float: left;
-
+h1{
+    color:palevioletred;
+    font-size: 30px;
+    
 }
-.gear-bg,
-.hammer-bg,
-.heart-bg{
-    transition: .3s ease-out; 
+button{
+    padding: 20px;
+    display: inline;
+    background: transparent;
+    border: 3px solid palevioletred;
+    border-radius: 30px;
+    color: palevioletred;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10%;
 }
-/*----------------------------------
-        GEAR  == engranaje
-----------------------------------*/
-.gear-bg:hover{
-    fill:rgb(35, 136, 136);
+a{
+    text-decoration: none;
+    list-style: none;
 }
-/*----------------------------------
-        HAMMER == martillo
-----------------------------------*/
-.hammer-bg{
-    stroke: #fee16e;
-}
-.hammer-bg:hover{
-    fill:#feae6e;
-    stroke-width: 8;
-}
-/*----------------------------------
-        HEART  == corazon
-----------------------------------*/
-.heart-bg:hover{
-    fill: #ff5e5e;
+button:hover{
+    background: palevioletred;
+    color: white;
+    margin-left: 20px;
 }
